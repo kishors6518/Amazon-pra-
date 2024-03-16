@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Registration Form</title>
+	<style type="text/css">
+		.mdiv{
+			background-color: whitesmoke;
+			width: 100%;
+			height: 800px;
+			position: fixed;
+			top: 0px;
+			left: 0px;
+		}
+		.mdiv img{
+			margin-left: 46%;
+			margin-top: 25px;
+		}
+		.frm{
+			border: solid;
+			border-color: white;
+			background-color: white;
+			width: 25%;
+			font-size: 18px;
+			margin-left: 37%;
+			padding-top: 25px;
+			padding-left: 25px;
+			padding-bottom: 25px;
+			border-radius: 25px;
+		}
+		h1{
+			margin-top: 15px;
+			font-family: elephanat;
+			font-size: 40px;
+		
+		}
+		#si{
+
+			font-size: 25px;
+		}
+		input{
+			width: 91%;
+			height: 23px;
+		}
+		#b1{
+			width: 93%;
+			height: 30px;
+			font-size: 18px;
+			background-color: #f0b726;
+		}
+		#b1:hover{
+			cursor: pointer;
+		}
+		a{
+			text-decoration: none;
+
+		}
+	</style>
+</head>
+<body><div class="mdiv">
+	<a href="Home.html" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/a/a9/Amazon_logo.svg" width="150px" height="45px"></a>
+
+	<!-- <div>
+		<h1 align="center">amazon</h1>
+	</div> -->
+		<div>
+				<form class="frm">
+						<legend id="si"><b>Create account</b></legend><br>
+						<label><b>Your name</b></label><br>
+						<input type="text" name="name" required><br><br>
+						<label><b>Email</b></label><br>
+						<input type="email" name="email" required><br><br>
+						<label><b>Password</b> </label><br>
+						<input type="Password" name="pwd" required><br>
+						<span>Passwords must be at least 6 characters.</span><br><br>
+						<label><b>Re-enter password</b> </label><br>
+						<input type="Password" name="repwd" required><br><br>
+						
+						<input type="Button" name="CyAA" onclick="window.location.href='Home.html';" value="Create your Amazon Account" id="b1"><br><br>
+						<span>By creating an account, you agree to Amazon's<br><a href="https://www.amazon.com/gp/help/customer/display.html?nodeId=201889720" target="_blank">Conditions</a> of Use and<a href="https://www.amazon.in/gp/help/customer/display.html?nodeId=GX7NJQ4ZB8MHFRNJ" target="_blank"> Privacy Notice</a> </span><br><br>
+						<hr width="50%"><br><br>
+						<span>Already have an account?<a href="Login.html" target="_blank"> Sign-in</a> </span>
+				</form>
+		</div>
+		</div>
+				
+
+</body>
+</html>

@@ -1,0 +1,88 @@
+.mdiv{
+	    position: absolute;
+	    width: 100%;
+		top: 0%;
+		left: 0%;
+		background-color: whitesmoke;
+		position: absolute;
+}
+.sdiv{
+	position: fixed;
+	left: 0%;
+	top: 0%;
+	width: 100%;
+	height: 90px;
+	background-color: white;
+}
+#im3{
+    padding-left: 35%;
+}
+.nav{
+	position: fixed;
+	top: 90px;
+	left: 0%;
+	width: 100%;
+	height: 50px;
+	background-color: gray;
+	display: inline-flex;
+	z-index: 10;
+}
+.nav ul li{
+	display: inline-flex;
+	padding-left: 25px;
+	font-size: 23px;
+}
+#sr{
+	padding-left: 250px;
+	width: 150px;
+	height: 25px;
+}
+#im{
+	margin-left: 25px;
+	padding-top: 10px;
+}
+.nav a{
+	text-decoration: none;
+	color: black;
+}
+.nav a:hover{
+	color: white;
+}
+.mar{
+		position: fixed;
+		top: 140px;
+		width: 100%;
+}
+marquee{
+	word-spacing: 25px;
+	margin-top: 5px;
+}
+.tab{
+	margin-top: 170px;
+	transition-duration: 5s;
+}	
+.tab a{
+	text-decoration: none;
+	color: black;
+}
+.tab a:hover{
+	color: blue;
+	text-transform: full-size-kana;
+	color: orange;
+
+}
+.tab p{
+	font-size: 20px;
+	font-family: elephant;
+	font-weight: bolder;
+}
+.tab td img:hover{
+	box-shadow: 0px 0px 25px red;
+	border-radius: 50px;
+	
+	z-index: -13;
+}
+.tab tb a img h3:hover{
+	box-shadow: 0px 0px 25px red;
+	z-index: -3
+transform: scale(3);}
